@@ -2,8 +2,8 @@
 
 $host = 'localhost:3306'; 
 $dbuser = 'root';
-$dbpassword = 'root';
-$dbname = 'visu_clientes';
+$dbpassword = '1234';
+$dbname = 'sistema-cadastro';
 
 $conn = mysqli_connect($host,$dbuser,$dbpassword,$dbname);
 if($conn){
@@ -13,4 +13,3 @@ if($conn){
 else {
     echo "Connection - failed </br>" . mysqli_connect_error();
 }
-
